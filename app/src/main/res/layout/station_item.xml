@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/liste_default_icon"
+        android:layout_gravity="center_vertical"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/txv_label_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="3dp"
+            android:textColor="@color/gray_text"
+            android:textSize="14sp"
+            android:gravity="start"
+            android:text="ID Gireve"
+            android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/txv_label_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:paddingLeft="3dp"
+            android:textColor="@color/gray_text"
+            android:textSize="14sp"
+            android:gravity="start"
+            android:text="ID eMi3"
+            android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/txv_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:paddingLeft="3dp"
+            android:textColor="@color/gray_text"
+            android:textSize="14sp"
+            android:gravity="start"
+            android:text="Address Address"
+            android:singleLine="true"/>
+
+    </LinearLayout>
+
+</LinearLayout>

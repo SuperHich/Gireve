@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.dotit.gireve.ihm.views.InfoPreference">
+
+    <TextView
+        android:id="@+id/txv_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:textColor="@color/gray_text"
+        android:textSize="18sp"
+        android:text="Info"
+        android:layout_below="@+id/txv_title"/>
+
+    <ImageView
+        android:id="@+id/btn_refresh"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/refresh_icon"
+        android:visibility="gone"/>
+
+</RelativeLayout>

@@ -1,0 +1,159 @@
+<resources>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="pref_header_search_settings">Search Settings</string>
+
+    <string name="pref_key_radius">radius</string>
+    <string name="pref_default_radius">5</string>
+    <string name="pref_title_radius">Search radius</string>
+    <string-array name="pref_radius_titles">
+        <item>1 km</item>
+        <item>2 km</item>
+        <item>3 km</item>
+        <item>4 km</item>
+        <item>5 km</item>
+        <item>6 km</item>
+        <item>7 km</item>
+        <item>8 km</item>
+        <item>9 km</item>
+        <item>10 km</item>
+        <item>20 km</item>
+        <item>30 km</item>
+        <item>40 km</item>
+        <item>50 km</item>
+        <item>60 km</item>
+        <item>70 km</item>
+        <item>80 km</item>
+        <item>90 km</item>
+        <item>100 km</item>
+        <item>200 km</item>
+        <item>300 km</item>
+        <item>400 km</item>
+        <item>500 km</item>
+        <item>600 km</item>
+        <item>700 km</item>
+        <item>800 km</item>
+        <item>900 km</item>
+        <item>1000 km</item>
+        <item>2000 km</item>
+        <item>3000 km</item>
+        <item>4000 km</item>
+        <item>5000 km</item>
+        <item>6000 km</item>
+        <item>7000 km</item>
+        <item>8000 km</item>
+        <item>9000 km</item>
+        <item>10000 km</item>
+    </string-array>
+    <string-array name="pref_radius_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+        <item>600</item>
+        <item>700</item>
+        <item>800</item>
+        <item>900</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>3000</item>
+        <item>4000</item>
+        <item>5000</item>
+        <item>6000</item>
+        <item>7000</item>
+        <item>8000</item>
+        <item>9000</item>
+        <item>10000</item>
+    </string-array>
+
+    <string name="pref_key_language">language</string>
+    <string name="pref_default_language">FR</string>
+    <string name="pref_title_language">Language</string>
+    <string-array name="pref_language_titles">
+        <item>French</item>
+        <item>English</item>
+        <item>German</item>
+    </string-array>
+    <string-array name="pref_language_values">
+        <item>FR</item>
+        <item>EN</item>
+        <item>GE</item>
+    </string-array>
+
+    <string name="pref_key_search_algo">search_algo</string>
+    <string name="pref_default_search_algo">1</string>
+    <string name="pref_title_search_algo">Search Algorithm</string>
+    <string-array name="pref_search_algo_titles">
+        <item>Default</item>
+    </string-array>
+    <string-array name="pref_search_algo_values">
+        <item>1</item>
+    </string-array>
+
+    <string name="pref_key_max_count">max_count</string>
+    <string name="pref_title_max_count">Number of ChargingPool</string>
+    <string name="pref_default_max_count">100</string>
+    <string-array name="pref_max_count_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+        <item>600</item>
+        <item>700</item>
+        <item>800</item>
+        <item>900</item>
+        <item>1000</item>
+    </string-array>
+
+
+    <string name="pref_header_network_settings">Network Settings</string>
+
+    <string name="pref_key_ip_address">ip_address</string>
+    <string name="pref_title_ip_address">IP Address</string>
+    <string name="pref_default_ip_address">0.0.0.0</string>
+
+    <string name="pref_key_fault_response">fault_response</string>
+    <string name="pref_title_fault_response">Fault Response</string>
+    <string name="pref_default_fault_response">No fault response</string>
+
+</resources>

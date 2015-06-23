@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:minHeight="40dp">
+
+    <TextView
+        android:id="@+id/txv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="3dp"
+        android:textColor="@color/gray_text"
+        android:textSize="15sp"
+        android:gravity="start"
+        android:text="Name: "
+        android:singleLine="true"
+        android:layout_weight="0.5"/>
+
+    <TextView
+        android:id="@+id/txv_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="3dp"
+        android:paddingLeft="3dp"
+        android:textColor="@color/gray_text"
+        android:textSize="14sp"
+        android:gravity="start"
+        android:text=""
+        android:layout_weight="0.5"
+        android:visibility="visible"/>
+
+    <ImageView
+        android:id="@+id/img_tick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:src="@drawable/tick_off"
+        android:scaleType="fitStart"
+        android:layout_gravity="center_vertical"
+        android:visibility="gone"/>
+
+</LinearLayout>

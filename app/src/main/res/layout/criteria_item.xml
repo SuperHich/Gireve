@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edt_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/green_light"
+        android:layout_margin="3dp"
+        android:text="TextBox Filter"
+        android:enabled="false"
+        android:singleLine="true"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"/>
+
+
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="4"
+        android:id="@+id/item_root">
+
+        <Spinner
+            android:id="@+id/spinner_params"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1.8"
+            android:background="@color/green_light"
+            android:layout_margin="3dp"
+            android:layout_gravity="center_vertical"
+            android:dropDownSelector="@drawable/down"/>
+
+        <Spinner
+            android:id="@+id/spinner_operators"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="0.6"
+            android:background="@color/green_light"
+            android:layout_margin="3dp"
+            android:layout_gravity="center_vertical"
+            android:dropDownSelector="@drawable/down"/>
+
+        <EditText
+            android:id="@+id/edt_value"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1.1"
+            android:background="@color/green_light"
+            android:layout_margin="3dp"
+            android:layout_gravity="center_vertical"
+            android:hint="@string/value"
+            android:paddingLeft="2dp"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"/>
+
+        <ImageButton
+            android:id="@+id/btn_remove"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:src="@drawable/moin_icon"
+            android:layout_weight="0.5"
+            android:layout_marginRight="3dp"
+            android:layout_gravity="center_vertical"
+            android:visibility="visible"/>
+
+    </LinearLayout>
+</RelativeLayout>
